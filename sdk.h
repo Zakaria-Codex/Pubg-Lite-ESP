@@ -6,7 +6,6 @@
 #include "kRpm.h"
 #pragma warning(disable:4996)
 static uint64_t GameModule = 0;
-MoaRpm rpm("PUBG LITE ", MoaRpm::MOA_MODE::KERNEL);
 static int S_width = 1920, S_height = 1080;
 static uint64 Paddr[1500];
 static int PlayerNum = 0;

@@ -3,7 +3,6 @@
 #include "math.h"
 #include "Offsets.h"
 #include "Decrypt.h"
-#include "kRpm.h"
 #pragma warning(disable:4996)
 static uint64_t GameModule = 0;
 static int S_width = 1920, S_height = 1080;
